@@ -1,0 +1,327 @@
+#header-nav__list li a {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 25px;
+	color: #010101 ;
+	
+}
+
+#header-nav__list a {
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.13em;
+	display: block;
+	color: #010101;
+	-webkit-transition: color 0.25s ease;
+	-moz-transition: color 0.25s ease;
+	-ms-transition: color 0.25s ease;
+	-o-transition: color 0.25s ease;
+	transition: color 0.25s ease;
+}
+
+#header-nav__list a:active {
+	color: #e14646;
+}
+
+#header-nav__list li a:hover {
+    color: #e14646; 
+	transition: color .25s ease;
+} 
+
+.widget ul li:first-child() {
+	padding-top: 0;
+}
+
+.widget ul li {
+	padding: 0px 0 0 0;
+	min-height: 100%;
+	margin: 0;
+}
+
+	li.cat-item {
+		float: initial;
+	}
+
+	li.cat-item a {
+		display: block;
+		color: #010101;
+		padding: 10px 0; 
+		transition: color .25s ease;
+	}
+
+	
+	li.cat-item a:hover {
+		color: #e14646; 
+		transition: color .25s ease;
+	} 
+
+li.menu-item {
+	display: inline-block;
+    vertical-align: top;
+	position: relative;
+    /* padding-right: 25px; */
+    margin-right: 15px;
+}
+
+li.menu-item a {
+	font-size: 14px;
+    color: #010101;
+    letter-spacing: 0.14em;
+    -webkit-transition: color 0.25s ease;
+    -moz-transition: color 0.25s ease;
+    -ms-transition: color 0.25s ease;
+    -o-transition: color 0.25s ease;
+    transition: color 0.25s ease;
+}
+
+.menu-item a:hover{ 
+	color: #e14646; 
+	transition: color .25s ease;
+}
+
+#menu-list-item a:after{
+	position: absolute;
+	display: block;
+	content: '/';
+	font-size: 14px;
+	color: #010101;
+	top: 0;
+	right: 0;
+}
+
+/* COMMENT FORM */
+ .comment-form-cookies-consent {
+	visibility: hidden;
+}
+
+.comment-notes {
+	visibility: hidden;
+}
+
+/* #comment { 
+	display: block;
+    width: 100%;
+    line-height: 20px;
+    padding: 10px 40px 10px 15px;
+    border-radius: 0;
+    max-width: 100%;
+    border: 1px solid #ededed;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+	font: inherit;
+    margin: 0;
+}
+
+.comment-form-author {
+    display: flex;
+} */
+
+.form-comment {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #author {
+	display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 20px;
+    padding: 7px 40px 7px 15px;
+    border: 1px solid #ededed;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: border-color 0.25s ease;
+    -moz-transition: border-color 0.25s ease;
+    -ms-transition: border-color 0.25s ease;
+    -o-transition: border-color 0.25s ease;
+    transition: border-color 0.25s ease;
+} */
+
+/* #email {
+	display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 20px;
+    padding: 7px 40px 7px 15px;
+    border: 1px solid #ededed;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: border-color 0.25s ease;
+    -moz-transition: border-color 0.25s ease;
+    -ms-transition: border-color 0.25s ease;
+    -o-transition: border-color 0.25s ease;
+    transition: border-color 0.25s ease;
+}
+
+.comment-form-email {
+    display: flex;
+}
+
+#url {
+	display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 20px;
+    padding: 7px 40px 7px 15px;
+    border: 1px solid #ededed;
+    outline: none;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-transition: border-color 0.25s ease;
+    -moz-transition: border-color 0.25s ease;
+    -ms-transition: border-color 0.25s ease;
+    -o-transition: border-color 0.25s ease;
+    transition: border-color 0.25s ease;
+}
+
+.comment-form-url {
+    display: flex;
+}
+
+.id {
+	background-color: white;
+	border: 1px solid #010101;
+	color: #010101; 
+	display: block;
+	width: 100%;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 0.5em;
+}  */
+
+/* Comment Form Button */
+.submit {
+    background-color: #fff;
+    border: 1px solid #010101;
+    color: #010101;
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    outline: 0;
+    font-size: 14px;
+    letter-spacing: .5em;
+    -webkit-transition: border-color .25s ease,color .25s ease;
+    -moz-transition: border-color .25s ease,color .25s ease;
+    -ms-transition: border-color .25s ease,color .25s ease;
+    -o-transition: border-color .25s ease,color .25s ease;
+    transition: border-color .25s ease,color .25s ease;
+}
+
+.submit:hover {
+    border-color: #e14646;
+	color: #e14646;
+}
+
+.comment {
+    display: flex;
+    position: relative;
+    margin-bottom: 60px;
+    padding-left: 0px; 
+}
+
+.comment p {
+    padding-top: 30px;
+}
+
+.comment-author {
+    display: flex;
+}
+
+.url {
+    letter-spacing: .04em;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.comment-meta{
+    color: #7e7e7e;
+    margin: 0;
+    position: absolute;
+    font-size: 12px;
+    right: 0;
+    top: 0;
+}  
+
+.comment-reply-link {
+    padding-left: 100px;
+}
+
+.says {
+    display: none;
+}
+
+@media all and (max-width: 1200px) { 
+
+	li.menu-item {
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		/* padding-right: 2px; */
+		margin-right: 13px;
+	}
+    
+    #menu-list-item a:after{
+        content: '';
+    }
+} 
+
+@media all and (max-width: 768px) {
+
+    li.menu-item {
+		display: list-item;
+		/* vertical-align: top; */
+		/* position: relative; */
+		/* padding-right: 0px; */
+		/* margin-right: 0px; */
+	}
+    
+    .slinky-menu li {
+        list-style: none;
+        margin: 0;
+    }
+
+    li.menu-item a {
+        background-color: #fff;
+        /* color: #010101; */
+        transition: color 0.25s ease;
+        position: relative;
+        font-size: 16;
+        letter-spacing: .13em;
+        padding: 1em 50px;
+    }
+
+    a.menu-mobile__link {
+        background-color: white;
+        /* color: #010101; */
+        -webkit-transition: color 0.25s ease;
+        -moz-transition: color 0.25s ease;
+        -ms-transition: color 0.25s ease;
+        -o-transition: color 0.25s ease;
+        transition: color 0.25s ease;
+        position: relative;
+        font-size: 16px;
+        letter-spacing: 0.13em;
+        display: inline-block;
+        vertical-align: top;
+        padding: 1em 50px;
+    }
+}
